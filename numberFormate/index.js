@@ -1,0 +1,1 @@
+numberFormat = n => n.toLocaleString();
