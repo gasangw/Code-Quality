@@ -14,6 +14,6 @@ function solution (roman) {
         IV: 4, 
         I: 1
     };
-     
+     // the below regex matches any of the above roman numerals, and returns an array of them
    return roman.match(/CM|CD|XC|XL|IX|IV|\w/g).reduce((accum, roman) => accum + romansAndValues[roman], 0);
   }
