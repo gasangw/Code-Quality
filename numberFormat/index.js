@@ -1,1 +1,1 @@
-numberFormat = n => n.toLocaleString();
+const numberFormat = number => number.toLocaleString();
